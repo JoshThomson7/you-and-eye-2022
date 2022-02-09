@@ -330,6 +330,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
     
                 a { display:block;
                     img { width: 278px; align-self:center; margin: 0 auto;
+                        @include breakpoint(brotherbear) { width: 139px;}
                     }
                 }
             }
