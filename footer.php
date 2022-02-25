@@ -3,8 +3,7 @@
         <div class="footer__menus">
             <div class="max__width">
 
-                <?php
-                    while(have_rows('footer_menus', 'options')) : the_row();
+                <?php while(have_rows('footer_menus', 'options')) : the_row();
 
                         $footer_menu = get_sub_field('footer_menu');
                         ?>
@@ -15,6 +14,15 @@
                         </article>
 
                 <?php endwhile; ?>
+
+                <article class="footer__menu contact-info">
+                    <h5>Contact Us <span class="ion-ios-plus-empty"></span></h5>
+
+                    <ul>
+                        <li><i class="fa fa-phone"></i><a href="tel:01707642255">01707 642255</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:jlevin20@hotmail.com">jlevin20@hotmail.com</a></li>
+                    </ul>
+                </article>
 
                 <article class="footer__menu social">
                    <h5>Follow Us <span class="ion-ios-plus-empty"></span></h5>
@@ -42,10 +50,6 @@
                         Herts,<br>
                         EN6 1AE</a>
                     </div>
-                </article>
-
-                <article class="footer__menu">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9891.65861879853!2d-0.20013883145625094!3d51.69800687966691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763d4c92d650b5%3A0xd67800570fb9d078!2sYou%20and%20Eye%20Opticians!5e0!3m2!1sen!2suk!4v1644363652682!5m2!1sen!2suk" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </article>
 
             </div><!-- max__width -->

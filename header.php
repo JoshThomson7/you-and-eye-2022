@@ -28,7 +28,7 @@
 
 		<header class="header">
 
-            <div class="pre__header">
+            <!-- <div class="pre__header">
                 <div class="max__width">
                     <ul class="contact">
                         <li><i class="fa fa-phone"></i><a href="tel:01707642255">01707 642255</a></li>
@@ -39,7 +39,7 @@
                         <a href="/book-appointment/" class="book">Book Appointment</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="header__main">
 
@@ -54,6 +54,11 @@
                     </div>
 
                     <div class="header__cta">
+
+                        <ul class="contact">
+                            <li><i class="fa fa-phone"></i><a href="tel:01707642255">01707 642255</a></li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:jlevin20@hotmail.com">Email Us</a></li>
+                        </ul>
 
                         <div class="header__menu">
                             <?php wp_nav_menu(array('menu' => 'Main Menu', 'container' => false)); ?>
