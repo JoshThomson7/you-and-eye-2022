@@ -20,7 +20,7 @@
 
                     <ul>
                         <li><i class="fa fa-phone"></i><a href="tel:01707642255">01707 642255</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:jlevin20@hotmail.com">jlevin20@hotmail.com</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:info@youandeyeopticians.co.uk">info@youandeyeopticians.co.uk</a></li>
                     </ul>
                 </article>
 

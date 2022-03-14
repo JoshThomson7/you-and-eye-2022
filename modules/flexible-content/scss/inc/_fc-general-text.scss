@@ -75,11 +75,13 @@ img {
 
             input[type='submit']{
                 padding: 10px 15px;
-                background: $primary;
+                background: $secondary;
                 color: #fff;
                 border: none;
                 width: 100%;
                 font-size: 17px;
+                justify-content: center;
+                text-transform: uppercase;
             }
         }
     }
