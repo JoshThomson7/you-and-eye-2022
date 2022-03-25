@@ -980,9 +980,11 @@ footer { padding: 0; position: relative;
 .page-id-3627850{
     .feature__image{
         width: 25%!important;
+        @include breakpoint(teenbear){width: 100%!important;}
     }
 
     .feature__text{
         width: 75%!important;
+        @include breakpoint(teenbear){width: 100%!important; text-align: center;}
     }
 }

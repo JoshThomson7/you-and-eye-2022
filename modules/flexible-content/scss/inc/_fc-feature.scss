@@ -13,6 +13,7 @@ Feature
     @include breakpoint(papabear) { padding-left: 10px !important; padding-right: 10px !important;}
 
     .fc_feature_wrapper { display:flex; flex-wrap:wrap; align-items: center; position: relative;
+        @include breakpoint(teenbear){flex-direction: column;}
 
         .feature__image,
         .feature__text { width:percentage(1/2);

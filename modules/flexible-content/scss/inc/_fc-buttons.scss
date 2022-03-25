@@ -4,9 +4,11 @@
 
 .fc_buttons {
 
-    .buttons__wrap { display: flex; align-items: center;
+    .buttons__wrap { display: flex; align-items: center; text-align: center;
         a { display: block; padding: 18px 40px 16px; background: $secondary; color: #fff; font-size: 14px; font-weight: 800; text-transform: uppercase;
             &:hover { background: $secondary;}
+
+            @include breakpoint(mamabear){padding: 14px 20px 12px;}
         }
 
         &.align-left { justify-content: flex-start;
